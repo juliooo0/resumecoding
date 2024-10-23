@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 0;
+}
+
+div{
+    background-color: #EAB2A0;
+    text-align: center;
+}
+
+#headerTop{
+    background-color: darkolivegreen;
+}
+
+#verification{
+    background-color: darkolivegreen;
+    margin: auto;
+    color: #EAB2A0;
+    font-size: calc(2px + 2vh);
+    padding-left:15%;
+}
+
+button{
+    padding: 2% 0;
+    font-family: 'PT serif', sans-serif;
+    background-color: #EAB2A0;
+}
+input{
+    padding: 2% 0;
+    font-family: 'PT serif', sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: darkolivegreen;
+    text-align: left;
+    padding-left: 3%;
+    font-family: 'PT serif', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1{
+    color: #EAB2A0;
+}
+
+header p{
+    color: #EAB2A0;
+}
+
+nav{
+    background-color: #435B66;
+    width: 30%;
+}
+
+nav li a:hover{
+    background-color: #2D4356;
+}
+
+nav ul{
+    border: solid #A76F6F 5px;
+    list-style: none;
+}
+
+nav li a{
+    color: #EAB2A0;
+    text-decoration: none;
+    font-family: 'PT serif', sans-serif;
+}
+
+main{
+    margin-top: 32%;
+}
+
+#schools{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+#school1{
+    padding-right: 6%;
+}
+
+
+main h3{
+    color: darkolivegreen;
+    font-family: 'PT serif', sans-serif;
+}
+
+main h4{
+    color: darkolivegreen;
+    font-family: 'PT serif', sans-serif;
+}
+
+main p{
+    color: darkolivegreen;
+}
+
+
+footer {
+    background-color: darkolivegreen;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-family: 'PT serif', sans-serif;
+}
+
+footer p{
+    color: #EAB2A0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+footer p a{
+    color: #EAB2A0;
+}
+
+
+header h1{
+    font-size: calc(10px + 3vw);
+}
+header p{
+    font-size: calc(5px + 1.5vw)
+}
+
+nav li{
+    font-size:calc(2px + 2vw);
+    padding: 30% 0;
+}
+
+main{
+    width: 70%;
+}
+main h3{
+    font-size: calc(12px + 2vw)
+}
+
+main h4{
+    font-size: calc(10px + 1vw)
+}
+
+main p{
+    font-size: calc(8px + 1vw)
+}
+
+footer p{
+    font-size: calc(1px + 1.5vw);
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+@media screen and (max-width: 900px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #verification{
+        padding: 0;
+        background-color: darkolivegreen;
+    }
+
+    nav {
+        text-align: center;
+        width: 100%;
+    }
+
+    nav li{
+        font-size:calc(2px + 2vw);
+        padding: 4% 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 0;
+        padding: 2%;
+    }
+
+    main{
+        width: 100%;
+        padding-top: 5%;
+    }
+
+    #schools{
+        margin-bottom: 30%;
+        display: block;
+        padding-left: 0;
+        padding-top: 10%;
+    }
+
+    #school1{
+        padding-left: 5%;
+    }
+
+    footer p {
+        font-size: calc(3px + 1vh);
+        padding: 15% 0;
+    }
+
+}

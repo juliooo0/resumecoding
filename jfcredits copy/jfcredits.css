@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 0;
+}
+
+div{
+    background-color: #EAB2A0;
+    text-align: center;
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+header{
+    background-color: rebeccapurple;
+    text-align: left;
+    padding-left: 3%;
+    font-family: 'PT serif', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    padding: 2% 0;
+    font-family: 'PT serif', sans-serif;
+    background-color: #EAB2A0;
+}
+input{
+    padding: 2% 0;
+    font-family: 'PT serif', sans-serif;
+}
+#headerTop{
+    background-color: rebeccapurple;
+}
+
+header h1{
+    color: #EAB2A0;
+}
+
+header p{
+    color: #EAB2A0;
+}
+
+#verification{
+    margin: auto;
+    background-color: rebeccapurple;
+    color: #EAB2A0;
+    font-size: calc(2px + 2vh);
+    padding-left:15%;
+}
+
+header{
+    background-color: rebeccapurple;
+    text-align: left;
+    font-family: 'PT serif', sans-serif;
+}
+
+
+nav{
+    background-color: #435B66;
+    width: 30%;
+}
+
+nav li a:hover{
+    background-color: #2D4356;
+}
+
+nav ul{
+    border: solid #A76F6F 5px;
+    list-style: none;
+}
+
+nav li a{
+    color: #EAB2A0;
+    text-decoration: none;
+    font-family: 'PT serif', sans-serif;
+}
+
+
+main{
+    padding-top: 20%;
+    width: 70%;
+
+}
+main h3{
+    color: rebeccapurple;
+    margin-top: 6%;
+    font-family: 'PT serif', sans-serif;
+}
+
+main p{
+    padding-top: 15%;
+    color: rebeccapurple;
+    margin-bottom: 7%
+}
+
+
+
+footer {
+    background-color: rebeccapurple;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+footer p{
+    color: #EAB2A0;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'PT serif', sans-serif;
+}
+
+footer p a{
+    color: #EAB2A0;
+}
+
+
+header h1{
+    font-size: calc(10px + 3vw);
+}
+header p{
+    font-size: calc(5px + 1.5vw)
+}
+
+nav li{
+    font-size:calc(2px + 2vw);
+    padding: 30% 0;
+}
+
+
+main h3{
+    font-size: calc(2px + 3vw);
+    padding-bottom: 2%
+}
+
+main p{
+    font-size: calc(2px + 2vw)
+}
+
+footer p{
+    font-size: calc(1px + 1.5vw);
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+@media screen and (max-width: 900px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #verification{
+        padding: 0;
+        background-color: rebeccapurple;
+    }
+    nav {
+        text-align: center;
+        width: 100%;
+    }
+
+    nav li{
+        font-size:calc(2px + 2vw);
+        padding: 4% 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 0;
+        padding: 2%;
+    }
+
+    main{
+        width: 100%;
+        padding: 20% 0;
+    }
+
+    main p{
+        padding-bottom: 10%;
+    }
+
+    #schools{
+        margin-bottom: 30%;
+        display: block;
+        padding-left: 0;
+        padding-top: 10%;
+    }
+
+    footer p {
+        font-size: calc(3px + 1vh);
+        padding: 20% 0;
+    }
+
+}

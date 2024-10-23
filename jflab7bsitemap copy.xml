@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <!--Add you sitemap.xml code here-->
+    <url>
+        <loc>new-jfresume.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>.8</priority>
+    </url>
+
+    <url>
+        <loc>jfreferences.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>.8</priority>
+    </url>
+
+    <url>
+        <loc>jfemployment.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>.5</priority>
+    </url>
+
+    <url>
+        <loc>jfeducation.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>.5</priority>
+    </url>
+
+    <url>
+        <loc>jfcredits.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>.5</priority>
+    </url>
+</urlset>

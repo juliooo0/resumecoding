@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 0;
+}
+
+div{
+    background-color: #EAB2A0;
+    text-align: center;
+}
+
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    visibility: hidden;
+}
+
+header{
+    background-color: #2D4356;
+    text-align: left;
+    padding-left: 3%;
+    font-family: 'PT serif', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+#headerTop{
+     background-color: #2D4356;
+}
+header h1{
+    color: #EAB2A0;
+}
+
+header p{
+    color: #EAB2A0;
+}
+
+#verification{
+    margin:auto;
+    padding-left: 15%;
+    background-color: #2D4356;
+    color: #EAB2A0;
+    font-size: calc(2px + 2vh)
+}
+
+button{
+    padding: 2% 0;
+    font-family: 'PT serif', sans-serif;
+    background-color: #EAB2A0;
+}
+input{
+    padding: 2% 0;
+    font-family: 'PT serif', sans-serif;
+}
+
+nav li a:hover{
+    background-color: #2D4356;
+}
+nav{
+    background-color: #435B66;
+    width: 30%;
+}
+
+nav ul{
+    border: solid #A76F6F 5px;
+    list-style: none;
+}
+
+nav li a{
+    color: #EAB2A0;
+    text-decoration: none;
+    font-family: 'PT serif', sans-serif;
+}
+
+main{
+    width: 70%;
+    margin-top: 15%;
+    padding: 0 10%;
+}
+#main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#main2 p{
+    padding-left: 25%;
+    font-size: calc(2px + 2.2vw)
+}
+
+main h3{
+    margin-bottom: 4%;
+    margin-top:4%;
+    color: #2D4356;
+    font-family: 'PT serif', sans-serif;
+}
+
+main img{
+    border-style: solid;
+    border-color: #2D4356;
+    border-width: 5px;
+}
+main p{
+    color: #2D4356;
+    padding-top: 2%;
+}
+footer {
+    background-color: #2D4356;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    text-align: center;
+    font-family: 'PT serif', sans-serif;
+}
+
+footer p{
+    color: #EAB2A0;
+}
+
+footer p a{
+    color: #EAB2A0;
+}
+
+
+
+
+#pfp{
+    max-width: 300%;
+}
+
+header h1{
+    font-size: calc(10px + 3vw);
+}
+header p{
+    font-size: calc(5px + 1.5vw)
+}
+
+nav li{
+    font-size:calc(2px + 2vw);
+    padding: 30% 0;
+}
+
+main h3{
+    font-size: calc(2px + 3vw)
+}
+
+main p{
+    padding-top: 14%;
+    font-size: calc(2px + 2.2vw)
+}
+
+footer p{
+    font-size: calc(1px + 1.5vw);
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+@media screen and (max-width: 900px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #verification{
+        padding: 0;
+    }
+    nav {
+        text-align: center;
+        width: 100%;
+    }
+
+    nav li{
+        font-size:calc(2px + 2vw);
+        padding: 4% 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 0;
+        padding: 2%;
+    }
+
+    main {
+        display: flex;
+        width: 85%;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 0;
+        padding-bottom: 20%;
+    }
+
+    #main2 p{
+        padding-left: 10%;
+        font-size: calc(2px + 2vh);
+    }
+
+    #pfp{
+        max-width: 145%;
+    }
+
+
+    main p {
+        font-size: calc(2px + 2vh)
+    }
+
+    footer p {
+        font-size: calc(3px + 1vh);
+        padding: 20% 0;
+    }
+
+}
